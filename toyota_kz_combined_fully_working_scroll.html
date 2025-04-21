@@ -1,0 +1,578 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toyota.kz — Надежность в каждом километре</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; scroll-behavior: smooth; }
+    body { font-family: 'Roboto', sans-serif; background: #e0e0e0; color: #333; }
+    header { background: #555; color: white; padding: 40px 20px; text-align: center; animation: fadeIn 1.5s ease-in-out; }
+    header h1 { font-size: 3em; }
+    header p { font-size: 1.2em; margin-top: 10px; }
+
+    nav { background: #777; display: flex; justify-content: center; padding: 12px 0; gap: 25px; flex-wrap: wrap; }
+    nav a { color: white; text-decoration: none; font-weight: bold; transition: color 0.3s; }
+    nav a:hover { color: #ffebee; }
+
+    main { max-width: 1100px; margin: 30px auto; padding: 20px; background: white; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); animation: fadeIn 1s ease-in; }
+
+    h2 { color: #555; margin-bottom: 15px; font-size: 1.8em; }
+    ul { padding-left: 20px; line-height: 1.8; }
+
+    .btn {
+      display: inline-block;
+      background: #555;
+      color: white;
+      padding: 10px 20px;
+      margin-top: 20px;													
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+
+    .btn:hover { background: #333; }
+
+    .cta {
+      text-align: center;
+      padding: 40px 20px;
+      background: #ddd;
+      border-radius: 10px;
+      margin-top: 40px;
+    }
+
+    .login-bar {
+      position: absolute;
+      top: 20px;
+      right: 30px;
+    }
+
+    .login-bar a {
+      color: white;
+      margin-left: 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .car-image {
+      width: 100%;
+      max-height: 350px;
+      object-fit: cover;
+      border-radius: 12px;
+      margin-bottom: 25px;
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      background: #f0f0f0;
+      color: #555;
+      margin-top: 50px;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      padding: 20px;
+      text-align: center;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 18px;
+      margin: 10px;
+      cursor: pointer;
+      background-color: #444;
+      color: white;
+      border: none;
+      border-radius: 5px;
+    }
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 10;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow-y: auto;
+      background-color: rgba(0,0,0,0.8);
+      padding: 40px 20px;
+    }
+    .modal-content {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .close {
+      float: right;
+      font-size: 24px;
+      cursor: pointer;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .card {
+      background-color: #eee;
+      border-radius: 10px;
+      padding: 15px;
+      text-align: left;
+    }
+    .card h3 {
+      margin: 0 0 10px;
+    }
+    .card p {
+      margin: 5px 0;
+    }
+  
+</style>
+</head>
+<body>
+
+  <header>
+    <div class="login-bar">
+      <a href="#">Войти</a> | <a href="#">Регистрация</a>
+    </div>
+    
+
+
+<h1><span style="color:#ffffff;">Toyota.kz</span></h1>
+    <p><strong>Надежность. Комфорт. Будущее.</strong></p>
+  </header>
+
+  <nav>
+    <a href="#filter">Фильтр</a>
+    <a href="#parts">Запчасти</a>
+    <a href="#why">Почему Toyota</a>
+    <a href="#contact">Контакты</a>
+  </nav>
+
+  <main>
+    
+<head>
+  <meta charset="UTF-8">
+  <title>Info Layout</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+    .container {
+      border: 2px solid black;
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+    h1 {
+      text-align: center;
+    }
+    .content {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+    }
+    .text {
+      flex: 1;
+      margin-right: 20px;
+    }
+    .photo img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border: 1px solid #999;
+    }
+  </style>
+</head>
+<body>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Info Layout</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 900px;
+      margin: 50px auto;
+      background: #fff;
+      border-radius: 12px;
+      padding: 30px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+      text-align: center;
+      font-size: 2.5em;
+      margin-bottom: 30px;
+      color: #444;
+    }
+    .content {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+    .text {
+      flex: 1;
+      min-width: 250px;
+    }
+    .text p {
+      background: linear-gradient(to right, #ccc 50%, transparent 50%);
+      background-size: 8px 1px;
+      background-repeat: repeat-x;
+      height: 16px;
+      margin-bottom: 15px;
+    }
+    .photo {
+      flex: 0 0 220px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .photo img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+      border: 2px solid #ddd;
+    }
+    footer {
+      text-align: center;
+      margin-top: 50px;
+      color: #999;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container" id="why">
+     <h1>Почему выбирают Toyota?</h1>
+     
+    <div class="content">
+      <div class="text">
+        <ul>
+        <li>Надежность, проверенная временем</li>
+        <li>Работает даже в самых суровых условиях</li>
+        <li>Идеальна для дорог Казахстана — от степей до гор</li>
+        <li>Современные технологии и комфорт</li>
+        <li>Высокая ликвидность — легко продать, легко купить</li>
+      </ul>
+      </div>
+      <div class="photo">
+        <img src="https://www.vzsar.ru/i/news/xxl/2017/05/145283.jpg" alt="Photo from Internet">
+      </div>
+    </div>
+  </div>
+
+    <section id="filter">
+      <h2>Фильтр по автомобилям</h2>
+      <ul>
+        <li><strong>Тип:</strong> Машины / Запчасти</li>
+        <li><strong>Состояние:</strong> Все, Новые, Б/у</li>
+        <li><strong>Модели:</strong> Camry, Land Cruiser 200/300, RAV4, Corolla, Hilux, Fortuner, C-HR</li>
+        <li><strong>Год выпуска:</strong> 2000 — 2025</li>
+        <li><strong>Цена:</strong> от 1 000 000 до 100 000 000 тг</li>
+      </ul>
+      <a href="#searchButtons" class="btn">Найти автомобиль</a>
+    </section>
+
+    <section id="parts">
+      <h2>Каталог запчастей</h2>
+      <ul>
+        <li><strong>Тип детали:</strong> Двигатель, трансмиссия, подвеска, электроника, кузов, салон и др.</li>
+        <li><strong>Модель:</strong> Camry, Land Cruiser, RAV4, Corolla, Hilux, Fortuner, C-HR</li>
+        <li><strong>Состояние:</strong> Новые / Б/у</li>
+        <li><strong>Цена:</strong> от 20 000 тг до 1 000 000 тг</li>
+      </ul>
+      <a href="#searchButtons" class="btn">Перейти к запчастям</a>
+    </section>
+
+    <section id="contact">
+      <h2>Контакты и поддержка</h2>
+      <p>Email: toyotakzz01@gmail.com</p>
+      <p>Языки: Русский / Қазақша / English</p>
+      <p>Поддержка браузеров: Chrome, Firefox, Safari, Edge</p>
+    </section>
+  </main>
+
+  </header>  <main>
+    <div class="review-box" id="reviewsSection">
+      <h2>Отзывы клиентов</h2>
+      <div class="review"><div class="stars">★★★★★</div><strong>Айбек:</strong> Купил RAV4 через этот сайт. Всё прошло быстро и удобно. Рекомендую!</div>
+      <div class="review"><div class="stars">★★★★☆</div><strong>Елена:</strong> Заказала запчасти для Camry — пришли за 2 дня. Отличный сервис!</div>
+      <div class="review"><div class="stars">★★★★★</div><strong>Нуржан:</strong> Очень понятный интерфейс. Удобно выбирать между моделями.</div>
+      <div class="review"><div class="stars">★★★★☆</div><strong>Асель:</strong> Быстро нашла подходящий Hilux. Хорошо, что есть фильтр!</div>
+      <div class="review"><div class="stars">★★★★★</div><strong>Руслан:</strong> Отличная поддержка. Быстро помогли с регистрацией!</div>
+
+<div class="review-form" style="margin-top:30px; text-align:center;">
+  <h3>Оставить отзыв</h3>
+  <input type="text" id="reviewName" placeholder="Ваше имя" style="width:300px; padding:8px; margin:5px;" />
+  <select id="reviewStars" style="width:150px; padding:8px; margin:5px;">
+    <option value="5">★★★★★</option>
+    <option value="4">★★★★☆</option>
+    <option value="3">★★★☆☆</option>
+    <option value="2">★★☆☆☆</option>
+    <option value="1">★☆☆☆☆</option>
+  </select>
+  <br/>
+  <textarea id="reviewText" placeholder="Ваш отзыв..." style="width:80%; max-width:600px; height:100px; margin:10px 0; padding:8px;"></textarea>
+  <br/>
+  <button onclick="addReview()">Добавить отзыв</button>
+</div>
+
+</div>
+
+  <footer>
+    <p>&copy; 2025 Toyota.kz — Неофициальный проект. Все права защищены.</p>
+  </footer>
+
+
+
+<!-- Модальное окно входа -->
+<div id="loginModal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:#0008; z-index:1000; justify-content:center; align-items:center;">
+  <div style="background:white; padding:30px; border-radius:10px; width:300px; text-align:center;">
+    <h3>Вход</h3>
+    <input type="email" id="loginEmail" placeholder="Email" style="width:100%; margin-top:10px; padding:8px;" />
+    <input type="password" id="loginPassword" placeholder="Пароль" style="width:100%; margin-top:10px; padding:8px;" />
+    <button onclick="login()" style="margin-top:15px;">Войти</button>
+    <p style="margin-top:10px;"><a href="#" onclick="switchToRegister()" style="font-weight:bold; color:#000;">Нет аккаунта? Регистрация</a></p>
+    <button onclick="closeAuthModal()" style="margin-top:10px;">Закрыть</button>
+  </div>
+</div>
+
+<!-- Модальное окно регистрации -->
+<div id="registerModal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:#0008; z-index:1000; justify-content:center; align-items:center;">
+  <div style="background:white; padding:30px; border-radius:10px; width:300px; text-align:center;">
+    <h3>Регистрация</h3>
+    <input type="email" id="regEmail" placeholder="Email" style="width:100%; margin-top:10px; padding:8px;" />
+    <input type="password" id="regPassword" placeholder="Пароль" style="width:100%; margin-top:10px; padding:8px;" />
+    <button onclick="register()" style="margin-top:15px;">Зарегистрироваться</button>
+    <p style="margin-top:10px;"><a href="#" onclick="switchToLogin()" style="font-weight:bold; color:#000;">Уже есть аккаунт? Войти</a></p>
+    <button onclick="closeAuthModal()" style="margin-top:10px;">Закрыть</button>
+  </div>
+</div>
+
+
+
+
+
+  <div class="container" id="searchButtons">
+    <button onclick="showModal('cars')">Найти автомобили</button>
+    <button onclick="showModal('parts')">Найти запчасти</button>
+  </div>
+
+  <div id="carsModal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('cars')">&times;</span>
+      <h2>Доступные автомобили</h2>
+      <div class="grid" id="carsList"></div>
+    </div>
+  </div>
+
+  <div id="partsModal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('parts')">&times;</span>
+      <h2>Запчасти</h2>
+      <div class="grid" id="partsList"></div>
+    </div>
+  </div>
+
+  
+
+
+
+<script>
+const cars = [
+  { model: "Toyota Camry", year: 2022, condition: "Новый", price: "12 500 000 ₸", engine: "2.5 л, бензин", drive: "Передний", transmission: "АКПП" },
+  { model: "Toyota RAV4", year: 2021, condition: "Б/у", price: "10 300 000 ₸", engine: "2.0 л, бензин", drive: "Полный", transmission: "Вариатор", mileage: "27 000 км" },
+  { model: "Toyota Land Cruiser 200", year: 2019, condition: "Б/у", price: "22 000 000 ₸", engine: "4.5 л, дизель", drive: "Полный", transmission: "АКПП", mileage: "80 000 км" },
+  { model: "Toyota Corolla", year: 2023, condition: "Новый", price: "9 800 000 ₸", engine: "1.6 л, бензин", drive: "Передний", transmission: "Механика" },
+  { model: "Toyota Prius", year: 2020, condition: "Б/у", price: "7 500 000 ₸", engine: "1.8 л, гибрид", drive: "Передний", transmission: "Вариатор", mileage: "60 000 км" },
+  { model: "Toyota Hilux", year: 2022, condition: "Новый", price: "15 000 000 ₸", engine: "2.8 л, дизель", drive: "Полный", transmission: "АКПП" },
+  { model: "Toyota CH-R", year: 2021, condition: "Б/у", price: "11 000 000 ₸", engine: "1.2 л, бензин", drive: "Передний", transmission: "Вариатор", mileage: "35 000 км" },
+  { model: "Toyota Highlander", year: 2023, condition: "Новый", price: "23 000 000 ₸", engine: "3.5 л, бензин", drive: "Полный", transmission: "АКПП" }
+];
+
+const parts = [
+  { name: "Двигатель 2.5 л", compatible: "Camry, RAV4", condition: "Новая", price: "850 000 ₸" },
+  { name: "Тормозные колодки", compatible: "Все модели", condition: "Новые", price: "25 000 ₸" },
+  { name: "Амортизаторы", compatible: "Land Cruiser, Hilux", condition: "Б/у", price: "45 000 ₸" },
+  { name: "Генератор", compatible: "Corolla, Camry", condition: "Б/у", price: "65 000 ₸" },
+  { name: "Фара передняя", compatible: "RAV4", condition: "Новая", price: "120 000 ₸" }
+];
+
+function showModal(type) {
+  if (type === 'cars') {
+    document.getElementById('carsModal').style.display = 'block';
+    const container = document.getElementById('carsList');
+    container.innerHTML = cars.map(car => `
+      <div class="card">
+        <h3>${car.model}</h3>
+        <p>Год: ${car.year}</p>
+        <p>Состояние: ${car.condition}</p>
+        <p>Цена: ${car.price}</p>
+        <p>Двигатель: ${car.engine}</p>
+        <p>Привод: ${car.drive}</p>
+        <p>КПП: ${car.transmission}</p>
+        ${car.mileage ? `<p>Пробег: ${car.mileage}</p>` : ""}
+      </div>
+    `).join('');
+  } else if (type === 'parts') {
+    document.getElementById('partsModal').style.display = 'block';
+    const container = document.getElementById('partsList');
+    container.innerHTML = parts.map(part => `
+      <div class="card">
+        <h3>${part.name}</h3>
+        <p>${part.compatible}</p>
+        <p>Состояние: ${part.condition}</p>
+        <p>Цена: ${part.price}</p>
+      </div>
+    `).join('');
+  }
+}
+
+function closeModal(type) {
+  document.getElementById(type + 'Modal').style.display = 'none';
+}
+
+function closeAuthModal() {
+  document.getElementById('loginModal').style.display = 'none';
+  document.getElementById('registerModal').style.display = 'none';
+}
+
+function switchToRegister() {
+  closeAuthModal();
+  showRegister();
+}
+
+function switchToLogin() {
+  closeAuthModal();
+  showLogin();
+}
+
+function showLogin() {
+  document.getElementById('loginModal').style.display = 'flex';
+}
+function showRegister() {
+  document.getElementById('registerModal').style.display = 'flex';
+}
+
+function login() {
+  const email = document.getElementById('loginEmail').value;
+  const pass = document.getElementById('loginPassword').value;
+  const stored = JSON.parse(localStorage.getItem("users") || "{}");
+  if (stored[email] && stored[email] === pass) {
+    localStorage.setItem("loggedInUser", email);
+    updateLoginBar();
+    closeAuthModal();
+  } else {
+    alert("Неверный email или пароль!");
+  }
+}
+
+function register() {
+  const email = document.getElementById('regEmail').value;
+  const pass = document.getElementById('regPassword').value;
+  let stored = JSON.parse(localStorage.getItem("users") || "{}");
+  if (stored[email]) {
+    alert("Пользователь уже существует!");
+    return;
+  }
+  stored[email] = pass;
+  localStorage.setItem("users", JSON.stringify(stored));
+  alert("Регистрация прошла успешно!");
+  closeAuthModal();
+  showLogin();
+}
+
+function logout() {
+  localStorage.removeItem("loggedInUser");
+  updateLoginBar();
+}
+
+function updateLoginBar() {
+  const user = localStorage.getItem("loggedInUser");
+  const bar = document.querySelector('.login-bar');
+  if (user) {
+    bar.innerHTML = `Привет, ${user} | <a href='#' onclick='logout()'>Выйти</a>`;
+  } else {
+    bar.innerHTML = `<a href='#' onclick='showLogin()'>Войти</a> | <a href='#' onclick='showRegister()'>Регистрация</a>`;
+  }
+}
+
+window.onload = updateLoginBar;
+
+function addReview() {
+  const name = document.getElementById("reviewName").value.trim();
+  const stars = document.getElementById("reviewStars").value;
+  const text = document.getElementById("reviewText").value.trim();
+
+  if (!name || !text) {
+    alert("Пожалуйста, заполните все поля.");
+    return;
+  }
+
+  const reviewHTML = `
+    <div class="review">
+      <div class="stars">${'★'.repeat(stars)}${'☆'.repeat(5 - stars)}</div>
+      <strong>${name}:</strong> <span class="review-text">${text}</span>
+      <div style="margin-top:5px;">
+        <button onclick="editReview(this)">Изменить</button>
+        <button onclick="deleteReview(this)">Удалить</button>
+      </div>
+    </div>`;
+
+  const box = document.querySelector(".review-box");
+  box.insertAdjacentHTML("beforeend", reviewHTML);
+
+  document.getElementById("reviewName").value = "";
+  document.getElementById("reviewStars").value = "5";
+  document.getElementById("reviewText").value = "";
+}
+
+function deleteReview(btn) {
+  const review = btn.closest(".review");
+  if (confirm("Вы уверены, что хотите удалить этот отзыв?")) {
+    review.remove();
+  }
+}
+
+function editReview(btn) {
+  const review = btn.closest(".review");
+  const name = review.querySelector("strong").innerText.replace(":", "");
+  const text = review.querySelector(".review-text").innerText;
+
+  document.getElementById("reviewName").value = name;
+  document.getElementById("reviewText").value = text;
+  document.getElementById("reviewStars").value = review.querySelector(".stars").innerText.trim().length;
+
+  review.remove();
+}
+</script>
+</body>
+
+</html>
